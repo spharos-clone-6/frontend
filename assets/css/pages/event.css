@@ -17,9 +17,10 @@ section#event-info {
     margin: 10px;
 }
 
-.product-item .thumbnail{
+.product-item .thumbnail {
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 #event-product {
