@@ -1,0 +1,113 @@
+#store-head {
+  background-color: var(--color-white);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#store-head .store-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 1rem;
+  height: 50px;
+  box-shadow: 0px 2px 2px rgb(228, 228, 228);
+}
+
+#store-head .store-header-top .menu-icon {
+  width:35%;
+}
+
+#store-head .store-header-top h1 {
+  align-items: center;
+  font-size: 0.9rem;
+  width: 30%;
+}
+
+#store-head .store-header-top h1 a:link{
+  text-decoration: none;
+  color: black;
+}
+
+#store-head .store-header-top h1 a:visited{
+  color: black;
+}
+
+#store-head .store-header-top nav {
+  width: 30%;
+}
+
+#store-head .store-header-top img {
+  width: 1rem;
+  height: auto;
+  opacity: 0.5;
+}
+
+#store-head .store-header-top nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#store-head .store-header-top nav ul li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+#store-head .store-header-top nav ul li:last-child {
+  margin-right: 0px;
+}
+
+/* 서브 헤더 */
+#store-head .header-sub {
+  /* box-shadow: inset 0 3px 0.9px 0 rgba(139, 139, 139, 0.08); */
+  border-bottom: 1px solid #e2e2e2;
+
+}
+
+#store-head .header-sub nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+}
+
+#store-head .header-sub nav ul li {
+  list-style: none;
+  padding: 20px 0px 20px 20px;
+  font-size: 0.9rem;
+  color: #6e6e6e;
+  margin: 0 10px;
+}
+
+#store-head .header-sub nav ul li.active {
+  color: var(--color-primary);
+}
+
+#store-head .header-sub nav ul li:first-child {
+  padding-left: 30px;
+}
+
+#store-head .header-sub nav ul li:last-child {
+  padding-right: 30px;
+}
+
+#store-head .header-sub nav ul::-webkit-scrollbar {
+  display: none;
+}
+
+#store-head .header-sub nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  /* font-weight: 200; */
+  font-size: 14px;
+}
