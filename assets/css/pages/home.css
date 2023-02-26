@@ -1,3 +1,6 @@
+.container {
+  background-color: white;
+}
 
 section#event-banner {
   padding: 0px;
@@ -5,11 +8,12 @@ section#event-banner {
 
 section h2{
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 900;
+  letter-spacing: 0.7px;
 }
 
 .event-banner {
-  margin-top: 125px !important;
+  margin-top: 90px !important;
 }
 
 section .recommand-product-list {
@@ -29,7 +33,7 @@ section .recommand-product-list::-webkit-scrollbar {
 section .recommand-product-list .recommand-product-item {
   width: 200px;
   height: 300px;
-  margin: 0px 14px;
+  margin: 0px 14px 0 0;
   padding: 0px;
 }
 
@@ -51,25 +55,35 @@ section .recommand-product-list .recommand-product-item .recommand-product-item_
 }
 
 .item-new {
-  font-size: 0.8rem;
+  font-size: 0.2rem;
   color: #0db904;
   font-style: italic;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
 }
 
 .item-title {
   line-height: 1.3;
   letter-spacing: 1px;
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+.item-price {
+  font-size: 1rem;
 }
 
 .item-price span {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
 
 #chunsik .chunsik-item {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 20px;
 }
 
@@ -81,4 +95,12 @@ section .recommand-product-list .recommand-product-item .recommand-product-item_
 #chunsik .chunsik-item .chunsik-item-info {
   width: 70%;
   margin-left: 5%;
+}
+
+.chunsik-item .item-title {
+  margin-top: 5px;
+}
+
+.chunsik-item .item-price {
+  margin-top: 10px;
 }
