@@ -8,7 +8,7 @@
 
 #store-head .store-header-top {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding: 3px 1rem;
   height: 50px;
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: end;
   align-items: end;
-  padding: 0px;
+  padding: 0px 0px 0px 15px;
   margin: 0px;
 }
 
@@ -85,6 +85,7 @@
 #store-head .header-sub nav ul li {
   list-style: none;
   padding: 20px 10px 20px 0px;
+  text-align: center;
   font-size: 0.9rem;
   color: #6e6e6e;
   margin: 0 10px;
@@ -121,9 +122,9 @@
 
 #store-head .header-sub nav .cat-title {
   font-size: 0.8rem;
-  padding: 3px 0px 0px 15px;
-  width: 80px;
-  text-align: center;
+  padding: 3px 0px 0px 20px;
+  width: 65px;
+  text-align: left;
   font-weight: bolder;
 }
 
