@@ -64,6 +64,7 @@
 /* 서브 헤더 */
 #store-head .header-sub {
   border-bottom: 1px solid #e2e2e2;
+  box-shadow: none;
 }
 
 #store-head .header-sub nav {
@@ -103,7 +104,7 @@
 }
 
 #store-head .header-sub nav ul li:first-child {
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 #store-head .header-sub nav ul li:last-child {
