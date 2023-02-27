@@ -1,6 +1,7 @@
 :root {
   --color-primary: #067040;
   --color-black: black;
+  --color-soft-black: rgb(37, 37, 37);
   --color-white: #fff;
   --color-light-green: rgb(0, 155, 57);
   --color-gray-button: rgb(171, 171, 171);
