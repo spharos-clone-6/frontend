@@ -8,7 +8,7 @@
 
 #store-head .store-header-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 3px 1rem;
   height: 50px;
@@ -54,7 +54,7 @@
 
 #store-head .store-header-top nav ul li {
   list-style: none;
-  margin: 0 8px;
+  margin: 0px 8px;
 }
 
 #store-head .store-header-top nav ul li:last-child {
@@ -72,7 +72,7 @@
 
 #store-head .header-sub nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items:center;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -84,7 +84,7 @@
 
 #store-head .header-sub nav ul li {
   list-style: none;
-  padding: 20px 10px 20px 5px;
+  padding: 20px 10px 20px 0px;
   font-size: 0.9rem;
   color: #6e6e6e;
   margin: 0 10px;
@@ -102,7 +102,7 @@
 }
 
 #store-head .header-sub nav ul li:first-child {
-  padding-left: 30px;
+  padding-left: 25px;
 }
 
 #store-head .header-sub nav ul li:last-child {
@@ -113,21 +113,16 @@
   display: none;
 }
 
-#store-head .header-sub nav ul li .cat-title {
-  position: sticky;
-}
-
 #store-head .header-sub nav ul li a {
   text-decoration: none;
   color: inherit;
-  /* font-weight: 200; */
   font-size: 0.8rem;
 }
 
 #store-head .header-sub nav .cat-title {
   font-size: 0.8rem;
-  padding: 3px 10px 0px 30px;
-  width: 40px;
+  padding: 3px 0px 0px 15px;
+  width: 80px;
   text-align: center;
   font-weight: bolder;
 }
