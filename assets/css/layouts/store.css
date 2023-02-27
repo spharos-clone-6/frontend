@@ -45,9 +45,9 @@
 }
 
 #store-head .store-header-top nav ul {
-  display: inline-flex;
+  display: flex;
   justify-content: end;
-  align-items: center;
+  align-items: end;
   padding: 0px;
   margin: 0px;
 }
@@ -71,7 +71,7 @@
 }
 
 #store-head .header-sub nav ul {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   align-items:center;
   overflow-x: scroll;
@@ -130,4 +130,19 @@
   width: 40px;
   text-align: center;
   font-weight: bolder;
+}
+
+.products-order {
+  display: flex;
+  margin: 10px;
+  text-align: right;
+  justify-content: right;
+  align-items: center;
+}
+
+.products-order img{
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  opacity: 70%;
 }
