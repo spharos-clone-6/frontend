@@ -13,7 +13,6 @@ section h2{
 }
 
 .event-banner {
-  margin-top: 88px !important;
 }
 
 section .recommand-product-list {
@@ -52,15 +51,6 @@ section .recommand-product-list .recommand-product-item .recommand-product-item_
 
 section .recommand-product-list .recommand-product-item .recommand-product-item__img img{
   border-radius: 5px;
-}
-
-.item-new {
-  font-size: 0.2rem;
-  color: var(--color-light-green);
-  font-style: italic;
-  font-weight: lighter;
-  padding: 0;
-  margin: 0;
 }
 
 .item-title {
