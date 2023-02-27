@@ -45,7 +45,7 @@
 }
 
 #store-head .store-header-top nav ul {
-  display: flex;
+  display: inline-flex;
   justify-content: end;
   align-items: center;
   padding: 0px;
@@ -63,16 +63,17 @@
 
 /* 서브 헤더 */
 #store-head .header-sub {
-  /* box-shadow: inset 0 3px 0.9px 0 rgba(139, 139, 139, 0.08); */
   border-bottom: 1px solid #e2e2e2;
+}
 
+#store-head .header-sub nav {
+  display: flex;
 }
 
 #store-head .header-sub nav ul {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  align-items:center;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -83,7 +84,7 @@
 
 #store-head .header-sub nav ul li {
   list-style: none;
-  padding: 20px 0px 20px 20px;
+  padding: 20px 10px 20px 5px;
   font-size: 0.9rem;
   color: #6e6e6e;
   margin: 0 10px;
@@ -91,6 +92,13 @@
 
 #store-head .header-sub nav ul li.active {
   color: var(--color-primary);
+  font-weight:300;
+  padding: 20px 10px 20px 0px;
+}
+
+#store-head .header-sub nav ul li.fix {
+  color: black;
+  font-weight: bolder;
 }
 
 #store-head .header-sub nav ul li:first-child {
@@ -105,9 +113,21 @@
   display: none;
 }
 
+#store-head .header-sub nav ul li .cat-title {
+  position: sticky;
+}
+
 #store-head .header-sub nav ul li a {
   text-decoration: none;
   color: inherit;
   /* font-weight: 200; */
-  font-size: 14px;
+  font-size: 0.8rem;
+}
+
+#store-head .header-sub nav .cat-title {
+  font-size: 0.8rem;
+  padding: 3px 10px 0px 30px;
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
 }
