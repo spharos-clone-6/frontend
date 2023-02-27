@@ -53,7 +53,7 @@ section.notice {
 details>p {
     font-size: 8px;
     opacity: 0.8;
-    background-color: rgba(214, 214, 214, 0.337);
+    background-color: var(--color-gray-background);
     padding: 10px;
 }
 
