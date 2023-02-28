@@ -182,3 +182,21 @@ input[type="checkbox"]:checked {
     margin-bottom: 18px;
     color: var(--color-gray-text);
 }
+
+#id-password-input {
+    margin-top: 15px;
+    padding: 25px;
+}
+
+#id-password-input input {
+    border: 0;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.381);
+    font-size: 1.2rem;
+    width: 100%;
+    outline: none;
+    padding: 2px;
+    height: 40px;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 15px;
+}
