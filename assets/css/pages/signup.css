@@ -185,7 +185,10 @@ input[type="checkbox"]:checked {
 
 #id-password-input {
     margin-top: 15px;
-    padding: 25px;
+    margin-bottom: 0;
+    padding: 0 25px;
+    display: flex;
+    align-items: baseline;
 }
 
 #id-password-input input {
@@ -199,4 +202,40 @@ input[type="checkbox"]:checked {
     vertical-align: bottom;
     display: inline-block;
     margin-bottom: 15px;
+}
+
+#id-password-input p {
+    font-size: 1.3rem;
+    color: var(--color-gray-text)
+}
+
+#id-password-input input:focus {
+    border-bottom: 1.5px solid var(--color-light-green);
+}
+
+
+#id-password-input select {
+    appearance: none;
+    border: none;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: sticky;
+    appearance: none;
+    height: 40px;
+    background: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    width: 70%;
+    color: var(--color-gray-text);
+}
+
+#id-password-input select option {
+    font-size: 0.8rem;
+}
+
+.email-guideline {
+    margin: 0;
+    padding: 0 25px;
+    color: var(--color-gray-text);
 }
