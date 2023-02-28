@@ -61,6 +61,14 @@ input[type="checkbox"]:checked {
     background-image: url(https://blog.kakaocdn.net/dn/t7a2D/btrhtVgLYmG/dUxzAkBy9hIZ4gHmyllQrk/img.png);
 }
 
+
+#agree-main a {
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 5px;
+    float: right;
+}
+
 /* 요소를 숨기는 class.
 .txt-hide {
     position: absolute;
@@ -90,6 +98,12 @@ input[type="checkbox"]:checked {
 
 .agree-input #advertising-email {
     margin-left: 50px;
+}
+
+.agree-input .arrow {
+    height: 0.8rem;
+    padding-right: 30px;
+    opacity: 0.5;
 }
 
 .agree-input p {
