@@ -6,10 +6,14 @@ section#event-banner {
   padding: 0px;
 }
 
-section h2{
+.recommand section h2{
   font-size: 1.2rem;
   font-weight: 900;
   letter-spacing: 0.7px;
+}
+
+.recommand {
+  margin-bottom: 0;
 }
 
 .event-banner {
