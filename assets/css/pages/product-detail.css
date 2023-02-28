@@ -113,8 +113,8 @@
 .detail-info .nav-button button{
   /* font-family: 'Noto Sans KR', sans-serif; */
   width: 100%;
-  margin: 0px 20px;
-  padding: 5px 0px;
+  margin: 0px 0px;
+  padding: 5px 15px;
   border: 0px;
   background-color: transparent;
   text-align: left;
@@ -141,7 +141,7 @@
   position: fixed;
   margin: 0;
   padding: 0;
-  width: 90%;
+  width: 100%;
   bottom: 0;
   z-index: 100;
 }
