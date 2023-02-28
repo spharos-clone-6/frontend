@@ -72,12 +72,15 @@
 
 .cart-product .product-img {
   width:25%;
-  padding: 0px 5px;
+  padding: 0px;
   border-radius: 10%;
 }
 
 .cart-product .item-info {
-  padding: 0px 10px;
+  display: flex;
+  padding: 0px;
+  margin: 0px 10px;
+  justify-content: space-between;
 }
 
 .cart-product .item-info .name {
@@ -93,4 +96,26 @@
 .cart-product .close-icon{
   width: 10px;
   padding: 0px 0px 0px 70px;
+}
+
+#cart-list .count {
+  text-align: left;
+  line-height: 30px;
+  height: 30px;
+  margin: 0px 10px;
+  background-color: var(--color-gray-background);
+}
+
+#cart-list .count p{
+  padding: 0px 10px;
+  color: var(--color-gray-text);
+  font-size: 10px;
+}
+
+#cart-list .item-price {
+  display:flex;
+  margin:0px 12px;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 700;
 }
