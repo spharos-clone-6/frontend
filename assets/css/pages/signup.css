@@ -1,22 +1,40 @@
+
+.signup-header {
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.signup-header p {
+    padding: 0;
+    padding-left: 25%;
+    margin: 0;
+}
+
+.page-num {
+    letter-spacing: -3.5px;
+    color: var(--color-gray-text);
+}
+
+
 .greeting .signup-info {
     font-weight: normal;
     line-height: 35px;
 }
 
-#agree-input {
-    position: absolute;
+.agree-input {
     width: 100%;
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 80px;
 }
 
-#agree-input input {
+.agree-input input {
     margin: 10px 3px 15px 25px;
     vertical-align: middle;
 }
 
-#agree-input>input[type=checkbox] {
+.agree-input>input[type=checkbox] {
     transform : scale(1.2);
     appearance: none;
     width: 1rem;
@@ -30,7 +48,7 @@ input[type="checkbox"]:checked {
     border: none;
 }
 
-#agree-input .advertising-info input[type=checkbox] {
+.agree-input .advertising-info input[type=checkbox] {
     border: 1px solid var(--color-gray-button);
     appearance: none;
     width: 1rem;
@@ -38,7 +56,7 @@ input[type="checkbox"]:checked {
     border-radius: 15%;
 }
 
-#agree-input .advertising-info input[type=checkbox]:checked {
+.agree-input .advertising-info input[type=checkbox]:checked {
     background-color: var(--color-light-green);
     background-image: url(https://blog.kakaocdn.net/dn/t7a2D/btrhtVgLYmG/dUxzAkBy9hIZ4gHmyllQrk/img.png);
 }
@@ -70,12 +88,97 @@ input[type="checkbox"]:checked {
 
 } */
 
-#agree-input #advertising-email {
+.agree-input #advertising-email {
     margin-left: 50px;
 }
 
-#agree-input p {
+.agree-input p {
     padding-left: 50px;
     margin: 0;
     font-size: 0.8rem;
+    color: var(--color-gray-text);
+}
+
+#identification-agree {
+    margin-top: 230px;
+}
+
+#identification-agree p {
+    padding-left: 25px;
+    display: inline-block;
+}
+
+
+#identification-agree .arrow {
+    height: 0.8rem;
+    padding-right: 30px;
+}
+
+#identification-agree a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#identification-input {
+    margin-top: 15px;
+    padding: 25px;
+}
+
+#identification-input input {
+    border: 0;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.381);
+    font-size: 1.2rem;
+    width: 100%;
+    outline: none;
+    padding: 2px;
+    height: 40px;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.phonenumber-input {
+    display: flex;
+    
+}
+
+#identification-input input:focus {
+    border-bottom: 1.5px solid var(--color-light-green);
+}
+
+#identification-input select {
+    appearance: none;
+    border: none;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: sticky;
+    appearance: none;
+    height: 40px;
+    background: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    width: 30%;
+}
+
+#identification-input select option {
+    font-size: 0.8rem;
+}
+
+#identification-input p {
+    color: var(--color-gray-text);
+    margin-top: 0;
+    padding: 0 10px;
+}
+
+.request {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    white-space: nowrap;
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+    color: var(--color-gray-text);
 }
