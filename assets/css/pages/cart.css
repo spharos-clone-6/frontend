@@ -218,3 +218,55 @@
   padding: 10px 15px;
   background-color: var(--color-gray-background);
 }
+
+.submit-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #e2e2e2;
+  box-shadow: 0 -3px .3em 3px rgba(139, 139, 139, 0.08);
+  background-color: var(--color-white);
+}
+
+.submit-container .submit-box {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.submit-container .buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.submit-container .cart-final{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.submit-container .cart-final .price{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+
+.submit-container .buttons button {
+  border-radius: 30px;
+  width: 45%;
+  height: 35px;
+  background-color: var(--color-light-green);
+  border: none;
+  color: var(--color-white);
+  margin: 15px 0;
+  letter-spacing: -0.2px;
+}
+
+.submit-container .cart-final span {
+  font-weight: 700;
+  color: var(--color-light-green)
+}
