@@ -115,7 +115,6 @@ input[type="checkbox"]:checked {
 }
 
 #identification-agree a {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
@@ -187,8 +186,6 @@ input[type="checkbox"]:checked {
     margin-top: 15px;
     margin-bottom: 0;
     padding: 0 25px;
-    display: flex;
-    align-items: baseline;
 }
 
 #id-password-input input {
@@ -242,4 +239,55 @@ input[type="checkbox"]:checked {
 
 .margin-top-zero {
     margin-top: 0;
+}
+
+#email-input {
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0 25px;
+    display: flex;
+    align-items: baseline;
+}
+
+#email-input select {
+    appearance: none;
+    border: none;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: sticky;
+    appearance: none;
+    height: 40px;
+    background: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    width: 70%;
+    color: var(--color-gray-text);
+}
+
+#email-input input {
+    border: 0;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.381);
+    font-size: 1.2rem;
+    width: 100%;
+    outline: none;
+    padding: 2px;
+    height: 40px;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#email-input p {
+    font-size: 1.3rem;
+    color: var(--color-gray-text)
+}
+
+#email-input input:focus {
+    border-bottom: 1.5px solid var(--color-light-green);
+}
+
+
+#email-input select option {
+    font-size: 0.8rem;
 }
