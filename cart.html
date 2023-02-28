@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="cart-container">
     <div>
       <header id="store-head">
         <div class="store-header-top">
@@ -42,8 +42,10 @@
       </div>
     </section>
     <section id="cart-list">
-      <div class="select-items">
-        <input type="checkbox"><span>냉동 상품</span>
+      <div class="select">
+        <div class="select-items">
+          <input type="checkbox"><span>냉동 상품</span>
+        </div>
       </div>
       <div class="cart-product">
         <input type="checkbox">
@@ -62,6 +64,43 @@
           <div class="item-price">
             <p>주문 금액</p>
             <p>33,000원</p>
+          </div>
+          <div class="item-purchase">
+            <a href="">
+              주문 수정
+            </a>
+            <a href="">바로 구매</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="total-cart-price">
+      <div>
+        <div class="title-total-price">
+          총 주문 금액
+        </div>
+        <div class="prices">
+          <div class="cart-price">
+            <p>상품 금액</p>
+            <p class="price">33,000원</p>
+          </div>
+          <div class="cart-price">
+            <p>할인 금액</p>
+            <p class="price">0원</p>
+          </div>
+          <div class="cart-price">
+            <p>배송비</p>
+            <p class="price">3,000원</p>
+          </div>
+        </div>
+        <div class="total-price">
+          <p>최종 결제 금액</p>
+          <p class="price">33,000원</p>
+        </div>
+        <div class="notice">
+          <div class="notice-box">
+            장바구니에는 최대 20개까지 담을 수 있으며, 담긴 상품은 최대 2개월간 보관됩니다.<br>
+            가격, 옵션 등 정보가 변경된 경우 주문이 불가할 수 있습니다.            
           </div>
         </div>
       </div>
