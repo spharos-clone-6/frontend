@@ -16,13 +16,12 @@
 }
 
 #store-head .store-header-top .menu-icon {
-  width:35%;
+  width:30%;
 }
 
 #store-head .store-header-top h1 {
-  align-items: center;
   font-size: 0.9rem;
-  width: 30%;
+  margin:0 auto;
 }
 
 #store-head .store-header-top h1 a:link{
