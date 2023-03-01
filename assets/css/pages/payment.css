@@ -213,3 +213,75 @@
   font-weight: 700;
   margin: 20px 0px;
 }
+
+#pay-method {
+  margin-bottom: 0px;
+  padding: 0px 14px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+#pay-method>div>p {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 0px;
+  margin: 0;
+}
+
+#pay-method .pay-choice :nth-child(1) {
+  padding: 10px 0px;
+}
+
+#pay-method .pay-choice :nth-child(2) {
+  padding: 10px 0px 30px 0px;
+}
+
+#pay-info {
+  margin-bottom: 0px;
+  padding: 0px 14px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+#pay-info>div>p {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 0px 10px 0px;
+  margin: 0;
+}
+
+#pay-info .pay {
+  padding: 10px 0px;
+}
+
+#pay-info .pay-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pay-info .pay-price p{
+  margin: 5px 0px;
+}
+
+#pay-info .pay-price .title{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#pay-info .pay-price .price{
+  font-weight: 700;
+} 
+
+#pay-info .notice {
+  width: 100%;
+  padding: 10px 0px 80px 0px;
+}
+
+#pay-info .notice-box {
+  word-break: break-all;
+  font-size: 12px;
+  color: var(--color-gray-text);
+  padding: 10px 15px;
+  background-color: var(--color-gray-background);
+}
