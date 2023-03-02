@@ -13,6 +13,6 @@
     font-size: 30px;
 }
 
-.result p span {
+.user-info {
     color: var(--color-light-green);
 }
