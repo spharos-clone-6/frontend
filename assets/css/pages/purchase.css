@@ -1,22 +1,22 @@
-#purchase-date {
+#purchase-list-date {
     margin-top: 40px;
 }
 
-#purchase-date h1 {
+#purchase-list-date h1 {
     font-size: 30px;
 }
 
-.purchase-period-setting-info {
+.purchase-list-period-setting-info {
     font-size: 1rem;
 }
 
-.purchase-period-setting-info .arrow {
+.purchase-list-period-setting-info .arrow {
     width: 0.8rem;
     height: 0.8rem;
     opacity: 0.5;
 }
 
-.purchase-period-setting-info button {
+.purchase-list-period-setting-info button {
     border: none;
     background-color: var(--color-white);
 }
@@ -65,11 +65,11 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-.purchase-option {
+.purchase-list-option {
     margin-top: 10px;
 }
 
-.purchase-option select {
+.purchase-list-option select {
     width: 100%;
     font-size: 0.8rem;
     background-color: var(--color-white);
@@ -80,6 +80,21 @@
     margin-top: 2px;
 }
 
-.purchase-option div {
+.purchase-list-option div {
     width: 46%;
+}
+
+.purchase-list-submit {
+    text-align: center;
+}
+
+.purchase-list-submit button {
+  border-radius: 30px;
+  width: 90%;
+  height: 35px;
+  background-color: var(--color-light-green);
+  border: none;
+  color: var(--color-white);
+  margin: 15px 0;
+  letter-spacing: -0.2px;
 }
