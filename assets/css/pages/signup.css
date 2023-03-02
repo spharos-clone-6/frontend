@@ -251,10 +251,6 @@ input[type="checkbox"]:checked {
     color: var(--color-gray-text);
 }
 
-.margin-top-zero {
-    margin-top: 0;
-}
-
 #email-input {
     margin-top: 15px;
     margin-bottom: 0;
