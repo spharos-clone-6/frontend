@@ -64,3 +64,22 @@
     border-radius: 5px;
     font-family: 'Noto Sans KR', sans-serif;
 }
+
+.purchase-option {
+    margin-top: 10px;
+}
+
+.purchase-option select {
+    width: 100%;
+    font-size: 0.8rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-button) ;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 2px;
+}
+
+.purchase-option div {
+    width: 46%;
+}
