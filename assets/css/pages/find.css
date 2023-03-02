@@ -1,0 +1,18 @@
+.key-img {
+    width: 80%;
+}
+
+.result {
+    height: 80%;
+    width: auto;
+    margin-top: 40%;
+    text-align: center;
+}
+
+.result p {
+    font-size: 30px;
+}
+
+.result p span {
+    color: var(--color-light-green);
+}
