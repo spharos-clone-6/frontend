@@ -127,3 +127,56 @@
     padding: 0 14px;
     font-family: 'Noto Sans KR', sans-serif;
 }
+
+.search-info p {
+    display: inline;
+}
+
+.search-info {
+    padding: 10px 15px 15px;
+}
+
+.search-header {
+    box-shadow: none !important;
+}
+
+#search-result-season {
+    text-align: center;
+}
+
+#search-result-filter {
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    gap: 10px;
+}
+
+#search-result-filter>img {
+    width: 1rem;
+    opacity: 0.5;
+}
+
+#search-result-filter p {
+    display: inline;
+}
+
+#search-result-filter button {
+    vertical-align: baseline;
+    background-color: var(--color-light-green);
+    color: var(--color-white);
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+}
+
+.close-icon {
+    padding-left: 4px;
+    width: 0.65rem;
+    vertical-align: baseline;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(260deg) brightness(112%) contrast(101%);
+}
+
+.search-result {
+    height: fit-content;
+    overflow: auto;
+}
