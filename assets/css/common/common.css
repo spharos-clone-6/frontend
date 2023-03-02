@@ -62,3 +62,7 @@ h1 {
   margin: 15px 0;
   letter-spacing: -0.2px;
 }
+
+.no-border {
+  border: none !important;
+}
