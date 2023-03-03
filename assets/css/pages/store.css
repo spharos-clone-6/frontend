@@ -1,3 +1,4 @@
+
 #store-head {
   background-color: var(--color-white);
   position: fixed;
@@ -71,29 +72,15 @@
 }
 
 #store-head .header-sub nav ul {
-  display: flex;
   justify-content: flex-start;
-  align-items:center;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  margin: 0px;
-  padding: 0px;
-  height: 50px;
 }
 
 #store-head .header-sub nav ul li {
-  list-style: none;
   padding: 20px 10px 20px 0px;
   text-align: center;
-  font-size: 0.9rem;
-  color: #6e6e6e;
-  margin: 0 10px;
 }
 
 #store-head .header-sub nav ul li.active {
-  color: var(--color-primary);
-  font-weight:300;
   padding: 20px 10px 20px 0px;
 }
 
@@ -106,17 +93,7 @@
   padding-left: 10px;
 }
 
-#store-head .header-sub nav ul li:last-child {
-  padding-right: 30px;
-}
-
-#store-head .header-sub nav ul::-webkit-scrollbar {
-  display: none;
-}
-
 #store-head .header-sub nav ul li a {
-  text-decoration: none;
-  color: inherit;
   font-size: 0.8rem;
 }
 

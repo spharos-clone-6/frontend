@@ -14,6 +14,9 @@ h1 {
   color : black;
 }
 
+a {
+  text-decoration: none;
+}
 
 .hide {
   opacity: 0;
