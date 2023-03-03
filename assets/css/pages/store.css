@@ -1,4 +1,3 @@
-
 #store-head {
   background-color: var(--color-white);
   position: fixed;
@@ -8,11 +7,7 @@
 }
 
 #store-head .store-header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 3px 1rem;
-  height: 50px;
   box-shadow: 0px 2px 2px rgb(228, 228, 228);
 }
 
@@ -34,33 +29,9 @@
   color: black;
 }
 
-#store-head .store-header-top nav {
-  width: 30%;
-}
-
-#store-head .store-header-top img {
-  width: 1rem;
-  height: auto;
-  opacity: 0.5;
-}
-
 #store-head .store-header-top nav ul {
-  display: flex;
-  justify-content: end;
-  align-items: end;
   padding: 0px 0px 0px 15px;
-  margin: 0px;
 }
-
-#store-head .store-header-top nav ul li {
-  list-style: none;
-  margin: 0px 8px;
-}
-
-#store-head .store-header-top nav ul li:last-child {
-  margin-right: 0px;
-}
-
 /* 서브 헤더 */
 #store-head .header-sub {
   border-bottom: 1px solid #e2e2e2;
