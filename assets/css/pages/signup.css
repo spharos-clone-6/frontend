@@ -69,33 +69,6 @@ input[type="checkbox"]:checked {
     float: right;
 }
 
-/* 요소를 숨기는 class.
-.txt-hide {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-/*체크를 안 했을 때*/
-/* label::before{
-	display: inline-block;
-    content:"";
-    width: 1rem;
-    height: 1rem;
-    margin-right: 10px;
-    border-radius: 50%;
-    border: 1px solid var(--color-gray-button);
-    /* background-image:url("체크 안된 상태의 이미지.png"); */
-/* } */
-
-/*체크했을 때*/
-/* input:checked+.labl::before{
-	background-image: url(/assets/images/icons/check_white.png);
-
-} */
-
 .agree-input #advertising-email {
     margin-left: 50px;
 }
